@@ -47,6 +47,7 @@ body {
 .hero {
   background: linear-gradient(transparent, rgba(0,0,0, 0.3)), url(../img/hero.jpg) no-repeat center;
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   text-align: center;
   position: relative;

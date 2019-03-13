@@ -1,0 +1,38 @@
+.app,
+.features {
+	overflow: hidden;
+}
+
+
+.features article.animated {
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	transform: translateY(50%);
+}
+
+.features article.animated.visible {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.app img.animated {
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	transform: translateX(-50%);
+}
+
+.app img.animated.visible {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+.app div.animated {
+	opacity: 0;
+	transition: all 1s ease-in-out;
+	transform: translateX(50%);
+}
+
+.app div.animated.visible  {
+	opacity: 1;
+	transform: translateX(0);
+}
